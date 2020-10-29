@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "header": "What is Lyrify?",
+        "body": "Lyrify is a music streaming & lyrics website both in One."
+    },
+    {
+        "id": 2,
+        "header": "What does Lyrify do?",
+        "body": "While listening to music Lyrify gets you the Lyrics of the Song you are listening to so you understand the song on a Deeper level."
+    },
+    {
+        "id": 3,
+        "header": "How do I use Lyrify?",
+        "body": "Simply search for the song on the search tab and Lyrify will get you the song,and the lyrics of the song will show up on your Screen in Lyrics tab."
+    },   {
+        "id": 4,
+        "header": "What can I Listen on Lyrify?",
+        "body": "You can listen to all the Top 100 and famous songs from your favorite artists or from your hidden gems and personal Discoveries ."
+      }
+]

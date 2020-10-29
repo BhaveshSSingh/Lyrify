@@ -1,0 +1,35 @@
+[
+      {
+        "id": 1,
+        "title": "Play your favorites.",
+        "subTitle": "Listen to the songs you love,and discover new music of different Genre",
+        "image":"/images/play/play3.png",
+        "alt": "Tiger King on Yourflix",
+        "direction": "row"
+      },
+      {
+        "id": 2,
+        "title": "Read the lyrics.",
+        "subTitle": "Checkout the lyrics of the songs you are listening to .",
+        "image": "/images/playlist/playlist5.png",
+        "alt": "Watch on mobile",
+        "direction": "row-reverse"
+      },
+      {
+        "id": 3,
+        "title": "Stream everywhere.",
+        "subTitle": "Stream unlimited music on your phone, tablet & laptop .",
+        "image": "/images/light/light2.png",
+        "alt": "Money Heist on Yourflix",
+        "direction": "row"
+      },
+            {
+        "id": 4,
+        "title": "Save mobile data.",
+        "subTitle":"To use less data when you play music,turn on Data Saver in Settings",
+        "image": "/images/like/like4.png",
+        "alt": "Money Heist on Yourflix",
+        "direction": "row-reverse"
+      }
+    
+  ]
