@@ -1,9 +1,8 @@
 import styled from "styled-components/macro";
 
 export const Item = styled.div`
-
   display: flex;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #303030;
   padding: 50px 5%;
   color: white;
   overflow: hidden;
@@ -32,8 +31,12 @@ export const Pane = styled.div`
   }
 `;
 export const Title = styled.h1`
+
 font-family:"Source Sans Pro", sans-serif;
-  color: black;
+text-align:center;
+background:#6C63FF;
+font-weight:normal;
+color:#303030;
   font-size: 50px;
   line-height: 1.1;
   margin-bottom: 8px;
@@ -42,8 +45,9 @@ font-family:"Source Sans Pro", sans-serif;
   }
 `;
 export const SubTitle = styled.h2`
+color:#303030;
 font-family:"Source Code Pro", monospace;
-  color: black;
+background:;
   font-size: 26px;
   font-weight: normal;
   line-height: normal;
@@ -52,15 +56,19 @@ font-family:"Source Code Pro", monospace;
   }
 `;
 export const Image = styled.img`
-padding-left:2em;
+padding-left:5em;
   max-width: 50%;
   height: auto;
+  @media(max-width:600px){
+padding:1em;
+    }
+  
 `;
 export const Container = styled.div`
-  background: linear-gradient(-120deg, #f3f3f5, #e90b8b, #352384, #333447);
   @media (max-width: 100px) {
     ${Item}:last-of-type h2 {
       margin-bottom: 50px;
     }
   }
 `;
+

@@ -6,11 +6,8 @@ export const GlobalStyles = createGlobalStyle`html,body{
     sans-serif;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: White;
+  background-color:#fff;
   color:black;
   font-size:16px;
-  
 
 }`;
-
-
