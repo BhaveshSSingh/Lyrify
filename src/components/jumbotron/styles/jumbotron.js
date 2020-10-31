@@ -16,7 +16,6 @@ export const Inner = styled.div`
   max-width: 1100px;
   margin: auto;
   width: 100%;
-
   @media (max-width: 1000px) {
     flex-direction: column;
   }
@@ -31,12 +30,13 @@ export const Pane = styled.div`
   }
 `;
 export const Title = styled.h1`
-
-font-family:"Source Sans Pro", sans-serif;
-text-align:center;
-background:#6C63FF;
-font-weight:normal;
-color:#303030;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background: #6c63ff;
+  border: 2px solid #6c63ff;
+  border-radius: 22px;
+  font-weight: normal;
+  color: #303030;
   font-size: 50px;
   line-height: 1.1;
   margin-bottom: 8px;
@@ -45,9 +45,11 @@ color:#303030;
   }
 `;
 export const SubTitle = styled.h2`
-color:#303030;
-font-family:"Source Code Pro", monospace;
-background:;
+  color: #303030;
+
+  border-radius: 22px;
+  font-family: "Source Code Pro", monospace;
+  background: ;
   font-size: 26px;
   font-weight: normal;
   line-height: normal;
@@ -56,13 +58,12 @@ background:;
   }
 `;
 export const Image = styled.img`
-padding-left:5em;
+  padding-left: 5em;
   max-width: 50%;
   height: auto;
-  @media(max-width:600px){
-padding:1em;
-    }
-  
+  @media (max-width: 600px) {
+    padding: 1em;
+  }
 `;
 export const Container = styled.div`
   @media (max-width: 100px) {
@@ -71,4 +72,3 @@ export const Container = styled.div`
     }
   }
 `;
-

@@ -9,6 +9,7 @@ export const Item = styled.div`
   color: #303030;
   margin-bottom: 10px;
   margin: auto;
+
   max-width: 700px;
   width: 100%;
   &:first-of-type {
@@ -18,6 +19,7 @@ export const Item = styled.div`
 
 export const Header = styled.div`
   border: 2px solid #6c63ff;
+  border-radius: 22px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   color: #303030;
@@ -72,6 +74,7 @@ export const Inner = styled.div`
 
 export const Title = styled.h1`
   font-family: "Source Sans Pro", sans-serif;
+  color: black;
   background: ;
   font-weight: 500;
   font-size: 50px;
